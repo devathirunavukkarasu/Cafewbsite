@@ -1,0 +1,331 @@
+
+html{
+	scroll-behavior: smooth;
+
+}*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	padding: 15px 20px;
+	background: black;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1111;
+}
+.main-head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family:sans-serif;
+	
+}
+.main-head h1{
+	color: red;
+	
+}
+.main-head span{
+	color: aliceblue;
+
+}
+ul{
+	display: flex;
+	list-style: none;
+
+}
+nav li{
+	padding: 5px 10px;
+	border: none;
+	display: inline-block;
+	padding: 10px;
+	transition: all linear 0.5s;
+	margin-right: 20px;
+}
+nav li a{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	padding: 10px;
+	transition: .4s;
+}
+nav a:hover{
+	background: burlywood;
+	color: black;
+}
+
+
+	nav a:hover{
+	
+	
+	 }
+#intro{
+display: flex;
+justify-content: center;
+align-items: center;
+	min-height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('pexels-afta-putta-gunawan-683039.jpg') no-repeat center center /cover;
+	
+	background-position: center;
+	background-size: cover;
+	
+}
+
+
+
+#intro{
+	height: 700px;
+	width: 100%;
+	padding:0px;
+	
+	/* border: 2px solid white; */
+	display:inline-block ;
+}
+.int{
+	
+	font-size: 30px;
+	color: aliceblue;
+	font-weight:500;
+	border: 2px solid white;
+	border-color: indianred;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	
+}
+
+.int p{
+	padding:60px;
+	
+}
+#intro h3{
+	padding-top: 60px;
+	padding-left: 30px;
+}
+#intro p{
+	color: aliceblue;
+	font-size: 18px;
+	/* border: 2px solid white; */
+}
+#menu{
+	/* display: flex; */
+justify-content: center;
+align-items: center;
+	min-height: 100vh;
+	width: 100%;
+	/* height: 100vh; */
+	/* width: 100%; */
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('pexels-viktoria-alipatova-2074130.jpg') no-repeat center center /cover;
+	
+	background-position: center;
+	background-size: cover;
+}
+#menu {
+	/* height: 700px; */
+	/* width: 100%; */
+	/* padding:2px; */
+	/* border: 2px solid white; */
+	/* display:inline-block ; */
+}
+#menu{
+	padding: 25px 0 25px 0;
+	
+}
+#section{
+	padding: 25px 0 25px 0;
+	padding-top:45px;
+padding-bottom: 10px;
+	text-align: center;
+	font-size: 2rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+
+}
+#menu_row{
+	display: flex;
+	padding: 0 120px 0 100px;
+
+}
+#menu_col{
+	/* box-shadow: 2px 2px 2px wheat; */
+	border: 1px solid wheat;
+	
+	background-color: wheat ;
+    /* opacity: 0.70; */
+	margin: 5px;
+	margin-bottom: 25px;
+	padding: 10px;
+	flex: 1;
+}
+#menu_col h2{
+	background-color: red;
+	color: azure;
+	text-align: center;
+	padding: 5px;
+	font-family: cursive;
+}
+#image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	padding: 5px;
+	border: 2px solid rgba(210, 71, 16, 0.705);
+	transition:1s;
+}
+#image img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+#image img:hover{
+	transform: scale(1.3);
+	transition:1s;
+	z-index: 5;
+	
+}
+#menu h3,h4{
+	padding-left: 10px;
+	text-transform: capitalize;
+}
+#menu h2{
+	text-transform: capitalize;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 5px;
+}
+
+#about{
+	/* position: sticky; */
+	/* display: flex; */
+justify-content: center;
+align-items: center;
+	min-height: 100vh;
+	/* min-width: 100vh; */
+	/* width: 100%; */
+	height: 100vh;
+	/* height: 100vh; */
+	/* width: 100%; */
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('pexels-quang-nguyen-vinh-2133535.jpg') no-repeat center center /cover;
+	background-position: center;
+	background-size: cover;
+	
+
+}
+#about{
+	/* height: 700px; */
+	width: 100%;
+	/* padding: 210px; */
+	/* border: 2px solid white; */
+	/* display:inline-block ; */
+	color: white;
+	text-transform: uppercase;
+	
+	
+}
+/* @media screen and  (max-width:768px){
+	#mobile_menu{
+		display: block;
+	}
+}
+	
+#nav */
+#about img{
+	width: 700px;
+	height: 600px;
+	padding-left: 100px;
+	padding-top: 140px;
+	
+	
+	
+}
+#about h1{
+		padding-top:200px;
+		padding-left: 740px;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#about h2{
+	padding-top: 10px;
+	padding-left: 740px;
+	font-weight:900;
+}
+#about p{
+	padding-top: 10px;
+	padding-left: 740px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+#contact{
+	padding-top: 2px;
+	
+	min-height: 100vh;
+	/* height: 100vh; */
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('pexels-lina-kivaka-1524142.jpg') no-repeat center center /cover;
+	background-position: center;
+	background-size: cover;
+}
+
+
+#contact form{
+	position:relative;
+	top:5%;
+	left: 30%;
+	transform: translate(-50%,-50
+	);
+	width: 350px;
+}
+#contact h1{
+	font-size: 40px;
+	position: relative;
+	top:15%;
+	left: 70%;
+	font-size: 40px;
+	text-align: center;
+	justify-content: center;
+	text-transform: uppercase;
+	margin: 40px 0px;
+	color: aliceblue;
+	
+	
+}
+#contact p{
+	color: white;
+	font-size: 20px;
+	margin: 15px 0;
+}
+#contact input,textarea{
+	font-size: 16px;
+	padding: 15px 10px ;
+	width: 220%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+#contact button{
+	
+	font-size: 18px;
+	font-weight: bold;
+	margin: 30px 300px;
+	padding: 10px 15px;
+	width: 50%;
+	border: 0;
+	border-radius: 5px;
+	background-color:rgb(255, 255, 255) ;
+}
+#contact button:hover{
+	color: burlywood;
+
+}
